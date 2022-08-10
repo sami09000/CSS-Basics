@@ -1,0 +1,15 @@
+<!--
+I learned to use fallbacks for browsers in order that if the browser if finds something it is not compatible with.
+-->
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>
